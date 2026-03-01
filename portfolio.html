@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rodina | Software Tester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="logo">Rodina</h2>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <!-- Hero Section --><section class="hero">
+    <h1 class="fade-in">
+        Hi, I'm <span class="highlight">Rodina</span> 👋
+    </h1>
+
+    <p class="fade-in delay">
+        Turning bugs into better software ✨ <br>
+        Software Testing & Quality Assurance Specialist
+    </p>
+
+    <div class="hero-buttons">
+        <a href="#contact" class="btn">Let's Work Together</a>
+
+        <a href="https://www.linkedin.com/in/rodina-radwan"
+           target="_blank"
+           class="btn linkedin-btn">
+           View My LinkedIn
+        </a>
+    </div>
+</section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            Computer Science student passionate about Software Testing and QA.
+            Detail-oriented, organized, and focused on delivering reliable,
+            well-tested software.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section pink-bg">
+        <h2>Skills</h2>
+        <div class="cards">
+            <div class="card">C++</div>
+            <div class="card">Java (OOP)</div>
+            <div class="card">Python</div>
+            <div class="card">HTML & CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Jira</div>
+            <div class="card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="cards">
+            <div class="card project">
+                <h3>Banking System</h3>
+                <p>OOP-based simulation system with validation and transactions.</p>
+            </div>
+            <div class="card project">
+                <h3>Grade Management</h3>
+                <p>Student grading system with validation logic.</p>
+            </div>
+            <div class="card project">
+                <h3>Front-End Website</h3>
+                <p>Responsive website using HTML, CSS & JS.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section pink-bg">
+        <h2>Contact Me</h2>
+        <p>Email: rodin2150@gmail.com</p>
+        <p>Phone: 01093710054</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Rodina Mohamed Radwan</p>
+    </footer>
+
+<script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav-links");
+
+    toggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
+    });
+</script>
+
+</body>
+</html>
